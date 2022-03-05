@@ -8,11 +8,11 @@ This is done with jQuery's $.getScript().
 
 const src = "https://raw.githubusercontent.com/itsbekas/BetterFenix/testing/betterfenix/src"
 
-$(window).ready(run);
+$(window).ready(betterfenix);
 
 function inject(src=src, path) { $.getScript(src+path); }
 
-function run() {
+function betterfenix() {
   console.log("BetterFénix is running.")
   inject("/default.js");
   let path = window.location.pathname.slice(1, -1);

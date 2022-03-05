@@ -18,8 +18,8 @@ function add_favorites() {
     toggle_setting("adding_favorites");
 }
 
-function run() {
+function learning_bookmarks() {
     add_classes();
 }
 
-run();
+learning_bookmarks();
