@@ -21,3 +21,5 @@ function add_favorites() {
 function run() {
     add_classes();
 }
+
+run();
