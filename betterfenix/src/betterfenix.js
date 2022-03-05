@@ -13,6 +13,7 @@ $(window).ready(run);
 function inject(src=src, path) { $.getScript(src+path); }
 
 function run() {
+  console.log("BetterFénix is running.")
   inject("/default.js");
   let path = window.location.pathname.slice(1, -1);
   inject(`${path}.js`);
